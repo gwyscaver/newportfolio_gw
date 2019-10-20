@@ -2353,7 +2353,7 @@ body {
 .section-box,
 .calendar-busy,
 .timeline-box-inner,
-.sidebar-default .profile-photo img {
+.sidebar-default .profile-photo .contact-photo img {
     background-color: #fff;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
 }
@@ -3522,7 +3522,7 @@ body {
     padding: 57px 50px 15px 50px;
 }
 
-.section-about .profile-photo {
+.section-about .profile-photo .contact-photo {
     margin-right: 10%;
     margin-bottom: 10px;
 }
@@ -3552,7 +3552,7 @@ body {
     margin-bottom: 0;
 }
 
-.profile-photo img {
+.profile-photo .contact-photo img {
     width: 100%;
     display: block;
 }
@@ -3652,7 +3652,7 @@ body {
         padding: 50px 40px 15px 40px;
     }
 
-    .section-about .profile-photo {
+    .section-about .profile-photo .contact-photo {
         margin-right: 0;
         margin-bottom: 30px;
     }
@@ -6658,12 +6658,16 @@ body {
 .no-boxshadow.theme-skin-dark .post-box,
 .no-boxshadow.theme-skin-dark .section-box,
 .no-boxshadow.theme-skin-dark .calendar-busy,
-.no-boxshadow.theme-skin-dark .sidebar-default .profile-photo img {
+.no-boxshadow.theme-skin-dark .sidebar-default .profile-photo .contact-photo img {
     border: 1px solid #525458;
 }
 
 .no-boxshadow.theme-skin-dark .timeline-box-inner {
     border: 1px solid #525458 !important;
+}
+
+.contact-img {
+    margin-left: 94px;
 }
 
 /*# sourceMappingURL=style.css.map */
